@@ -1,0 +1,65 @@
+/* Header.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.mobilit.com.br/wp-content/uploads/2021/02/o-que-e-tecnologia-da-informacao-1.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; /* Adapte a fonte conforme necessário */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    padding: 400px;
+    color: black;
+}
+
+.header h1 {
+    font-size: 3em; /* Ajuste o tamanho do título conforme necessário */
+    margin-bottom: 20px; /* Adicione margem inferior conforme necessário */
+}
+
+.contacts {
+    text-align: center;
+    color: black;
+    padding: 300px;
+}
+
+.contacts h2 {
+    color: black;
+    
+}
+
+.contacts p {
+    margin: 5px 0;
+    color: black;
+}
+
+.Servicos {
+    text-align: center;
+    color: white; /* Altere a cor do texto conforme necessário */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Adapte a cor de fundo com opacidade */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.Servicos h1 {
+    color: white; /* Altere a cor do título conforme necessário */
+}
+
+.Servicos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Servicos li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
